@@ -519,7 +519,7 @@ a:focus {
     color: peru;
 }
 a:active {
-    color: lightskyblue;
+    color: lightblue;
 }
 
 @media screen and (max-width: 600px) {
