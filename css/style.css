@@ -1,0 +1,751 @@
+body {
+    margin: 0;
+    font: 400 18px/28px Inter, sans-serif;
+    background: #EFEFF2;
+    color: #19191C;
+}
+.container {
+    margin: 0 auto;
+    width: 1440px;
+}
+.header {
+    padding: 38px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header__box {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.nav__list {
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav__list-link{
+    color: #19191C;
+    text-decoration: none;
+}
+.btn__box {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.header__logo {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+}
+.btn__box-link {
+    color: #19191C;
+    font-weight: 600;
+    font-style: 18px;
+    line-height: 22px;
+    text-decoration: none;
+
+}
+.btn__box-btn {
+    background-color: #19191C;
+    color: #EFEFF2;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 12px 37px;
+    text-decoration: none;
+}
+.offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: url(../images/female.png) 135% 100% no-repeat, url(../images/rectangle.png) 97% 100% no-repeat;
+}
+.offer__holder {
+    width: 648px;
+    background: url(../images/bg1.png) 130% 0% no-repeat;
+}
+.offer__duration {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    text-decoration-color: #504DEE;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+    margin-top: 167px;
+}
+.offer__profession {
+   margin: 40px 0 2px;
+}
+.offer__title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0 0 48px;
+}
+.offer__info {
+    margin: 0 0 50px;
+}
+.offer__button {
+    background-color: #504DEE;
+    color: #FBFBFC;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 8px 10px;
+    width: 141px;
+    height: 54px;
+    margin: 0 0 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.offer__sale {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0;
+}   
+.offer__time {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.offer__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    position: relative;
+}
+.offer__items {
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-weight: 700;
+    font-style: 18px;
+    line-height: 22px;
+}
+.offer__invision {
+    top: 80px;
+    right: 50px;
+}
+.offer__protopie {
+    top: 50px;
+    right: 270px;
+}
+.offer__miro {
+    top: 140px;
+    left: 160px;
+}
+.offer__photopshop {
+    top: 290px;
+    left: 170px;
+}
+.offer__figma {
+    top: 420px;
+    left: 40px;
+}
+.offer__illustrator {
+    top: 550px;
+    left: 0px;
+}
+
+.profession {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.profession__box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.profession__content {
+    width: 588px;
+    margin: 0 141px 0 0;
+}
+.profession__title {
+    margin: 363px 0 28px;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+}
+.profession__description {
+    color: #6D6D77;
+}
+.profession__counters {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    margin: 363px 0 0;
+}
+.profession__counters-amount {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: #19191C;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 46px;
+}
+.profession__counters-value {
+    margin: 0 0 18px;
+}
+.profession__counters-text{
+    color: #6D6D77;
+}
+.proffesion__skills-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.profession__skills {
+    background: url(../images/portfolio.jpg) no-repeat;
+    width: 467px;
+    height: 329px;
+    margin: 168px 0 0;
+    display: flex;  
+    flex-direction: column;
+    padding-left: 48px;
+}
+.profession__skills-title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    padding: 0;
+    margin: 68px 0 0 0;
+}
+.profession__skills-text {
+    width: 368px;
+    border-top: 4px solid #19191C;
+    padding: 12px 0 0;
+}
+.profession__skills-internship {
+    background: url(../images/internship.jpg) no-repeat;
+    width: 467px;
+    height: 329px;
+    margin: 168px 0 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 48px;
+}
+.profession__skills-certificate {
+    background: url(../images/certificate.jpg) no-repeat;
+    width: 467px;
+    height: 329px;
+    margin: 168px 0 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 48px;
+}
+
+.discover__title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    width: 594px;
+    margin: 171px 0 100px;
+}
+.discover__box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.discover__course-base {
+    background: url(../images/base.jpg);
+    width: 467px;
+    height: 732px;
+}
+.discover__course-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    padding: 48px 0 0 68px;
+}
+.discover__course-list {
+    padding: 47px 59px 0 68px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    list-style: square;
+}
+.discover__course-price {
+    color: #6D6D77;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 147px 0 0 68px;
+}
+.discover__course-discount {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0 0 0 68px;   
+}
+.discover__button {
+    background-color: #19191C;
+    padding: 16px 36px;
+    color: #FBFBFC;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 18px 236px 51px 68px;
+}
+
+.discover__optimal {
+    background: url(../images/optimal.png);
+    width: 467px;
+    height: 732px;
+    color: #FBFBFC;
+}
+.discover__optimal-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    padding: 48px 0 0 68px;
+}
+.discover__optimal-list {
+    padding: 47px 59px 0 68px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    list-style: square;
+}
+.discover__optimal-price {
+    color: #EFEFF2;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 100px 0 0 68px;
+}
+.discover__optimal-discount {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0 0 0 68px;
+}
+.discover__optimal-button {
+    background-color: #FBFBFC;
+    padding: 16px 36px;
+    color: #504DEE;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 18px 236px 51px 68px;
+}
+
+.discover__premium {
+    background: url(../images/premium.jpg);
+    width: 467px;
+    height: 732px;
+}
+.discover__premium-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    padding: 48px 0 0 68px;
+}
+.discover__premium-list {
+    padding: 47px 59px 0 68px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    list-style: square;
+}
+.discover__premium-price {
+    color: #6D6D77;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 75px 0 0 68px;
+}
+.discover__premium-discount {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0 0 0 68px;
+}
+.discover__premium-button {
+    background-color: #19191C;
+    padding: 16px 36px;
+    color: #FBFBFC;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 18px 236px 51px 68px;
+}
+.find__program {
+    background-color: #DEEFE4;
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+.find__program-text {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 0 240px;
+}
+.find__program-title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px; 
+}
+.find__program-form {
+    display: flex;
+    flex-direction: column;
+    margin: 130px 0 0;
+    gap: 28px;
+}
+.find__program-box {
+    border: none;
+    border-bottom: 2px solid #19191C;
+    width: 500px;
+    background-color: #DEEFE4;
+}
+.find__program-button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 16px 36px;
+    width: 150px;
+    height: 54px;
+    color: #FBFBFC;
+    background-color: #19191C;
+}
+.footer {
+    background-color: #19191C;
+}
+.footer__container {
+    width: 1920px;
+    margin: 0 auto;
+}
+.footer__box {
+    display: flex;
+    flex-direction: column;
+}
+.footer__content {
+    padding: 68px 240px;
+    display: flex;
+    gap: 200px;
+
+}.footer__logo-box {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.footer__logo {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #FBFBFC;
+    text-decoration: none;
+}
+.footer__support-link {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.footer__support {
+    color: #FBFBFC;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+}
+.sitemap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
+.sitemap__title {
+    color: #FBFBFC;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;  
+}
+.sitemap__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0;
+    list-style: none;
+}
+.sitemap__list-link {
+    color: #EFEFF2;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+}
+.policy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    color: #6D6D77;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.policy__link {
+    color: #6D6D77;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+}
+a:focus {
+    color: peru;
+}
+a:active {
+    color: lightskyblue;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: auto;
+    }
+    .header {
+        justify-content: flex-start;
+    } 
+    .header__box {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: flex-start;
+    }
+    .nav__list {
+        display: grid;
+        gap: 30px;
+    }   
+    .btn__box {
+        display: grid;
+        justify-content: flex-end;
+        margin-top: 70px;
+        gap: 20px;
+
+    }
+    .offer {
+        flex-wrap: wrap;
+    }
+    .offer__duration {
+        margin-top: 50px;
+    }
+    .offer__profession {
+        font-size: 4vw;
+    }
+    .offer__title {
+        font-size: 10vw;
+    }
+    .offer__button {
+        margin-bottom: 30px;
+    }
+    .offer__sale {
+        font-size: 10vw;
+    }
+    .offer__info {
+        font-size: 4vw;
+    }
+    .offer__list {
+        padding: 10px 10px;
+    }
+    .offer__items {
+        position: static;
+        padding: 10px 10px;
+        font-size: 4vw;
+        margin-bottom: 10px;
+    }
+    .profession__box {
+        flex-wrap: wrap;
+    }
+    .profession__title {
+        margin-top: 50px;
+        font-size: 10vw;
+    }
+    .profession__content {
+        margin: 0;
+        font-size: 4vw;
+    }
+    .profession__counters {
+        display: block;
+        margin-top: 20px;
+    }
+    .profession__counters-amount {
+        font-size: 10vw;
+    }
+    .profession__counters-value {
+        font-size: 4.5vw;
+    }
+    .profession__counters-text {
+        font-size: 4vw;
+    }
+    .proffesion__skills-box {
+        flex-wrap: wrap;
+    }
+    .profession__skills-title {
+        margin-top: 5px;
+        font-size: 8vw;
+    }
+    .profession__skills {
+        margin-top: 20px;
+        padding: 0;
+        font-size: 3vw;
+        height: auto;
+    }
+    .profession__skills-internship {
+        margin-top: 5px;
+        padding: 0;
+        font-size: 3vw;
+        height: auto;
+    }
+    .profession__skills-certificate {
+        margin-top: 5px;
+        padding: 0;
+        font-size: 3vw;
+        height: auto;
+    }
+    .profession__skills-text {
+        border-top: 2px solid #000;
+    }
+    .discover__title {
+        font-size: 10vw;
+        margin: 30px 0;
+    }
+    .discover__box {
+        flex-wrap: wrap;
+    }
+    .discover__course-base {
+        height: auto;
+    }
+    .discover__course-title {
+        font-size: 8vw;
+        padding: 5px 68px 0;
+    }
+    .discover__course-list {
+        padding: 5px 59px 0 68px;
+        gap: 10px;
+        font-size: 4vw;
+    }
+    .discover__course-price {
+        margin: 25px 0 0 68px;
+        font-size: 5vw;
+    }
+    .discover__course-discount {
+        font-size: 12vw;
+    }
+    .discover__button {
+        margin: 10px 0 20px 68px;
+        font-size: 4vw;
+    }
+    .discover__optimal {
+        height: auto;
+    }
+    .discover__optimal-title {
+        font-size: 8vw;
+        padding: 5px 68px 0;
+    }
+    .discover__optimal-list {
+        padding: 5px 59px 0 68px;
+        gap: 10px;
+        font-size: 4vw;
+    }
+    .discover__optimal-price {
+        margin: 25px 0 0 68px;
+        font-size: 5vw;
+    }
+    .discover__optimal-discount {
+        font-size: 12vw;
+    }
+    .discover__optimal-button {
+        margin: 10px 0 20px 68px;
+        font-size: 4vw;
+    }
+    .discover__premium {
+        height: auto;
+    }
+    .discover__premium-title {
+        font-size: 8vw;
+        padding: 5px 68px 0;
+    }
+    .discover__premium-list {
+        padding: 5px 59px 0 68px;
+        gap: 10px;
+        font-size: 4vw;
+    }
+    .discover__premium-price {
+        margin: 25px 0 0 68px;
+        font-size: 5vw;
+    }
+    .discover__premium-discount {
+        font-size: 12vw;
+    }
+    .discover__premium-button {
+        margin: 10px 0 20px 68px;
+        font-size: 4vw;
+    }
+    .find__program {
+        display: block;
+        margin: 30px 0;
+    }
+    .find__program-text {
+        margin: 40px 0 0 0;
+    }
+    .find__program-title {
+        font-size: 9vw;
+    }
+    .find__program-description {
+        font-size: 4vw;
+    }
+    .find__program-form {
+        margin-top: 30px;
+    }
+    .find__program-box {
+    width: auto;
+    }
+    .find__program-button {
+        font-size: 4vw;
+    }
+    .footer__container {
+        width: auto;
+    }
+    .footer__content {
+        display: block;
+        padding: 10px 0 20px;
+    }
+    .footer__support {
+        font-size: 6vw;
+    }
+    .sitemap {
+        margin-top: 50px;
+    }
+    .sitemap__list-link {
+    font-size: 4vw;
+    }
+    .policy {
+        display: block;
+        text-align: center;
+        font-size: 4vw;
+    }
+
+}
